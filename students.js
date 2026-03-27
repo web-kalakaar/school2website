@@ -74,3 +74,21 @@ toppers.forEach(student => {
 
   container.appendChild(card);
 });
+
+  const buttons = document.querySelectorAll(".toggle-btn");
+
+  buttons.forEach(btn => {
+    btn.addEventListener("click", () => {
+      const container = btn.nextElementSibling;
+
+      // close others
+      document.querySelectorAll(".topper-cards").forEach(div => {
+        if (div !== container) {
+          div.classList.remove("active");
+        }
+      });
+
+      // toggle current
+      container.classList.toggle("active");
+    });
+  });

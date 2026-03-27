@@ -112,6 +112,88 @@ const teachers = [
     medium: "hindi",
     classGroup: "8-9-10th"
   },
+    {
+    name: "Sneha Kapoor",
+    subject: "English Teacher",
+    degree: "M.A English",
+    experience: "3+ Years",
+    phone: "9988112233",
+    image: "demodp2.jpg",
+    medium: "english",
+    classGroup: "8-9-10th"
+  },
+  {
+    name: "Deepak Joshi",
+    subject: "Science Teacher",
+    degree: "B.Sc",
+    experience: "2+ Years",
+    phone: "9090909090",
+    image: "demodp2.jpg",
+    medium: "english",
+    classGroup: "8-9-10th"
+  },
+
+  {
+    name: "Ramesh Meena",
+    subject: "Maths Teacher",
+    degree: "B.Sc, B.Ed",
+    experience: "6+ Years",
+    phone: "8877665544",
+    image: "demodp2.jpg",
+    medium: "hindi",
+    classGroup: "8-9-10th"
+  },
+  {
+    name: "Sunita Devi",
+    subject: "Social Science Teacher",
+    degree: "M.A",
+    experience: "7+ Years",
+    phone: "7766554433",
+    image: "demodp2.jpg",
+    medium: "hindi",
+    classGroup: "8-9-10th"
+  },
+    {
+    name: "Sneha Kapoor",
+    subject: "English Teacher",
+    degree: "M.A English",
+    experience: "3+ Years",
+    phone: "9988112233",
+    image: "demodp2.jpg",
+    medium: "english",
+    classGroup: "8-9-10th"
+  },
+  {
+    name: "Deepak Joshi",
+    subject: "Science Teacher",
+    degree: "B.Sc",
+    experience: "2+ Years",
+    phone: "9090909090",
+    image: "demodp2.jpg",
+    medium: "english",
+    classGroup: "8-9-10th"
+  },
+
+  {
+    name: "Ramesh Meena",
+    subject: "Maths Teacher",
+    degree: "B.Sc, B.Ed",
+    experience: "6+ Years",
+    phone: "8877665544",
+    image: "demodp2.jpg",
+    medium: "hindi",
+    classGroup: "8-9-10th"
+  },
+  {
+    name: "Sunita Devi",
+    subject: "Social Science Teacher",
+    degree: "M.A",
+    experience: "7+ Years",
+    phone: "7766554433",
+    image: "demodp2.jpg",
+    medium: "hindi",
+    classGroup: "8-9-10th"
+  },
 
   {
     name: "Anjali Sharma",
