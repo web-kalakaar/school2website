@@ -1,0 +1,335 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>sant kirpal website</title>
+  <link rel="stylesheet" href="index.css" />
+  <link rel="stylesheet" href="mediaquery.css" />
+  <link rel="stylesheet" href="teacheranimation.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+  <nav class="navbar">
+    <div class="logo">
+      <img src="logo2.jpeg" alt="School Logo" />
+      <span style="text-transform: capitalize;">sant kirpal senior secondary school</span>
+    </div>
+
+    <ul class="nav-links">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#academic">Academics</a></li>
+      <li class="drop"><a href="#Teachers">Teachers </a></li>
+
+      <li><a href="#Results">Results</a></li>
+      <li><a href="#Gallery">Gallery</a></li>
+      <li><a href="#Contact">Contact</a></li>
+    </ul>
+
+    <div class="menu-toggle" onclick="toggleMenu()">☰</div>
+  </nav>
+  <script>
+    function toggleMenu() {
+      document.querySelector(".nav-links").classList.toggle("active");
+    }
+  </script>
+  <div class="main" id="home"></div>
+  <div class="cards">
+    <div class="card1">
+      <h3>high quality learning</h3>
+      <p>
+        Concept-based learning with experienced teachers Interactive teaching
+        methods enhance understanding. Continuous evaluation ensures
+        consistent academic growth
+      </p>
+    </div>
+
+    <div class="card2">
+      <h3>Experienced Faculty</h3>
+      <p>
+        Highly qualified and dedicated teachers who use effective teaching
+        methods to guide students with personal attention and clear
+        understanding.
+      </p>
+    </div>
+    <div class="card3">
+      <h3>Academic Excellence</h3>
+      <p>
+        Focus on strong fundamentals with structured curriculum, regular
+        assessments, and consistent academic performance to help students
+        achieve their goals.
+      </p>
+    </div>
+    <div class="card4">
+      <h3>high quality learning</h3>
+      <p>
+        Concept-based learning with experienced teachers Interactive teaching
+        methods enhance understanding. Continuous evaluation ensures
+        consistent academic growth
+      </p>
+    </div>
+  </div>
+
+  <!-- about us>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> -->
+
+  <div class="about" id="about">
+    <h1>about us</h1>
+    <p>
+      Sant Kirpal Senior Secondary school, established in the year 2000,
+      is committed to providing quality education and shaping the future of
+      young minds. With a strong focus on academic excellence, discipline, and
+      overall development, the school creates a supportive and inspiring
+      learning environment. Under the visionary leadership of our Director,
+      the institution continues to nurture talent through modern teaching
+      methods, experienced faculty, and a values-based approach to education.
+      Our goal is to empower students with knowledge, confidence, and skills
+      to succeed in life.
+    </p>
+    <div class="aboutowner">
+      <div class="owner-card">
+        <img src="demodp2.jpg" alt="" />
+        <h3>Rajesh Sharma</h3>
+        <p class="designation">Chairman</p>
+        <p class="mobile">phone 91+987654321</p>
+      </div>
+
+      <div class="owner-card">
+        <img src="demodp2.jpg" alt="" />
+        <h3>Sunita Sharma</h3>
+        <p class="designation">Director</p>
+
+        <p class="mobile">phone 91+987654321</p>
+      </div>
+
+      <div class="owner-card">
+        <img src="demodp2.jpg" alt="" />
+        <h3>Amit Sharma</h3>
+        <p class="designation">Manager</p>
+        <p class="mobile">phone 91+987654321</p>
+      </div>
+
+      <div class="owner-card">
+        <img src="demodp2.jpg" alt="" />
+        <h3>Neha Sharma</h3>
+        <p class="designation">Coordinator</p>
+        <p class="mobile">phone 91+987654321</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- academic>>>>>>>>>>>>>>> -->
+
+  <div class="academic" id="academic">
+    <div class="stat-box">
+      <h2>97%</h2>
+      <p>Highest Score</p>
+    </div>
+
+    <div class="stat-box">
+      <h2>100%</h2>
+      <p>Pass Rate</p>
+    </div>
+
+    <div class="stat-box">
+      <h2>25+</h2>
+      <p>Years of Excellence</p>
+    </div>
+    <div class="stat-box">
+      <h2>500+</h2>
+      <p>Students Enrolled</p>
+    </div>
+
+    <div class="stat-box">
+      <h2>30+</h2>
+      <p>Qualified Teachers</p>
+    </div>
+  </div>
+  <!-- techers>>>>>>>>>>>>>>>>>>>>>> -->
+
+  <div class="teachers" id="Teachers">
+    <h1>Our Dedicated Teachers</h1>
+    <h2>English medium</h2>
+    <div id="english">
+      <h3>11-12th</h3>
+      <div id="e-11-12th"></div>
+      <h3>8-10th</h3>
+      <div id="e-8-9-10th"></div>
+      <h3>playgroup to 7th</h3>
+      <div id="e-play-7th"></div>
+    </div>
+
+    <h2>Hindi medium</h2>
+    <div id="hindi">
+      <h3>11-12th</h3>
+      <div id="h-11-12th"></div>
+      <h3>8-10th</h3>
+      <div id="h-8-9-10th"></div>
+      <h3>playgroup to 7th</h3>
+      <div id="h-play-7th"></div>
+    </div>
+  </div>
+
+  <script src="teacher.js"></script>
+
+  <!-- result of toppers>>>>>>>>>>>>>>>>>>> -->
+
+  <div class="toppers" id="Results">
+    <h1>our best results</h1>
+    <p>
+      We take pride in our consistent academic excellence and outstanding
+      student performance over the years.
+    </p>
+
+    <div class="topper-cards-containor">
+      <h2>Class 12 Toppers</h2>
+      <div id="class-12" class="topper-cards"></div>
+
+      <h2>Class 10 Toppers</h2>
+      <div id="class-10" class="topper-cards"></div>
+    </div>
+    <script src="students.js"></script>
+    <!-- Gallery>>>>>>>>>>>>>>>>>>>>> -->
+    <div class="gallery" id="Gallery">
+      <h2>Our Campus</h2>
+      <div>
+        <img src="demoimggallery.jpg" alt="" />
+        <img src="demoimggallery.jpg" alt="" />
+        <img src="demoimggallery.jpg" alt="" />
+        <img src="demoimggallery.jpg" alt="" />
+        <img src="demoimggallery.jpg" alt="" />
+        <img src="demoimggallery.jpg" alt="" />
+      </div>
+
+      <h2>Our fun activities</h2>
+      <div>
+        <img src="demoimggallery.jpg" alt="" />
+        <img src="demoimggallery.jpg" alt="" />
+        <img src="demoimggallery.jpg" alt="" />
+        <img src="demoimggallery.jpg" alt="" />
+        <img src="demoimggallery.jpg" alt="" />
+        <img src="demoimggallery.jpg" alt="" />
+      </div>
+
+      <h2>our Trips</h2>
+      <div>
+        <img src="demoimggallery.jpg" alt="" />
+        <img src="demoimggallery.jpg" alt="" />
+        <img src="demoimggallery.jpg" alt="" />
+        <img src="demoimggallery.jpg" alt="" />
+        <img src="demoimggallery.jpg" alt="" />
+        <img src="demoimggallery.jpg" alt="" />
+      </div>
+    </div>
+
+    <!-- contact>>>>>>>>>>>>>>>>>>>>>> -->
+
+    <div class="contact" id="Contact">
+      <div class="bg">
+        <p>contact us</p>
+      </div>
+      <div class="contact-blogs">
+        <div class="blog">
+          <h2>Visit us</h2>
+          <p>krishna nagar bharatpur rajasthan pincode-321001</p>
+        </div>
+        <div class="blog">
+          <h2>Contact us</h2>
+          <p>krishna nagar bharatpur rajasthan pincode-321001</p>
+        </div>
+
+        <div class="blog">
+          <h2>Email us</h2>
+          <p>krishna nagar bharatpur rajasthan pincode-321001</p>
+        </div>
+      </div>
+    </div>
+    <!-- footer.>>>>>>>>>>>>>>>> -->
+    <!-- 
+    <div class="footer">
+      <div class="footer-container">
+        <div class="footer-box">
+          <h2>
+            <img src="logo2.jpeg" alt="" /> Millenium Public Senior
+            Secondary school
+          </h2>
+          <p>Providing quality education and shaping bright futures.</p>
+        </div>
+
+        <div class="footer-box">
+          <h3>Quick Links</h3>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#academic">Academics</a></li>
+            <li><a href="#Teachers">Teachers</a></li>
+            <li><a href="#Results">Results</a></li>
+            <li><a href="#Gallery">Gallery</a></li>
+            <li><a href="#Contact">Contact</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-box">
+          <h3>social media</h3>
+          <div class="social">
+            <p class="facebook">
+              <a href="facebook.com">
+                <img src="facebook-square.svg" alt="" /> </a>facebook
+            </p>
+            <p class="insta">
+              <a href="instagram.com">
+                <img src="instagram-square.svg" alt="" /></a>instagram
+            </p>
+            <p class="youtube">
+              <a href="www.youtube.com/@millenniumpublicsr.sec.sch6458">
+                <img src="youtube-square.svg" alt="" /></a>youtube
+            </p>
+          </div>
+        </div>
+      </div>
+    </div> -->
+
+
+    <div class="footer">
+      <div class="footer-box">
+        <div class="footer-title">
+          <h1>Sant Kirpal Senior Secondary School</h1>
+          <img src="logo2.jpeg" alt="">
+        </div>
+        <div class="social">
+          <a href="facebook.com">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/5/51/Facebook_f_logo_(2019).svg"  alt="" /></a>
+
+          <a href="instagram.com">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png"  alt="" /></a>
+
+          <a href="www.youtube.com/@millenniumpublicsr.sec.sch6458">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/0/09/YouTube_full-color_icon_(2017).svg" alt="" /></a>
+
+        </div>
+
+        <ul class="quick-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#academic">Academics</a></li>
+          <li><a href="#Teachers">Teachers</a></li>
+          <li><a href="#Results">Results</a></li>
+          <li><a href="#Gallery">Gallery</a></li>
+          <li><a href="#Contact">Contact</a></li>
+        </ul>
+
+
+
+      </div>
+    </div>
+
+    <div class="credit">
+      <span>Website designed & developed by Sharad Rajput | Web Developer</span>
+      <span class="enquiry">for enquiry:<a href="https://www.instagram.com/the_royal_sharad/" target="_blank">@click
+          here</a></span>
+    </div>
+</body>
+
+</html>

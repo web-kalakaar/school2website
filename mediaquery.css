@@ -1,0 +1,231 @@
+/* Media Query for Mobile */
+@media only screen and (max-width: 768px) {
+  /* General Body Styles */
+  body {
+    padding: 0px;
+    margin: 0;
+    overflow-x: hidden;
+  }
+
+  .about,
+  .academic,
+  .teachers,
+  .toppers,
+  .gallery {
+    padding: 20px;
+  }
+
+
+  .menu-toggle {
+    display: block;
+  }
+
+  .nav-links {
+    position: absolute;
+    top: 43px;
+    left: 0;
+    width: 100%;
+    background: #003366;
+    flex-direction: column;
+    align-items: center;
+
+    display: none; /* hidden by default */
+  }
+
+  .nav-links li {
+    padding: 10px 0;
+  }
+
+  .logo span {
+    font-size: 18px;
+    line-height: normal;
+  }
+
+  /* ACTIVE MENU */
+  .nav-links.active {
+    display: flex;
+  }
+
+  /* Main Section (Home) */
+  .main {
+    height: 442px;
+    background-position: center;
+    background-size: cover;
+  }
+
+  /* Cards */
+  .cards {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .cards div {
+    width: 90%; /* Full width with some padding */
+    margin-bottom: 20px;
+  }
+
+  .cards h3 {
+    font-size: 1.5rem; /* Reduce font size */
+  }
+  .cards p {
+    font-size: 1rem; /* Reduce font size */
+  }
+
+  /* About Us Section */
+  .about {
+    margin: 20px 0;
+    height: auto;
+    background-image: none;
+  }
+  .about p {
+    width: 100%;
+    text-align: justify;
+  }
+
+  .aboutowner {
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+  }
+
+  .owner-card {
+    width: 100%;
+    max-width: 300px;
+    padding: 10px;
+  }
+
+  .owner-card img {
+    width: 100px;
+    height: 100px;
+  }
+
+  .owner-card h3 {
+    font-size: 1.2rem;
+  }
+
+  /* Academic Section */
+  .academic {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .stat-box {
+    margin-bottom: 20px;
+  }
+
+  .stat-box h2 {
+    font-size: 2rem;
+  }
+
+  /* Teachers Section */
+  .teachers {
+    margin: 20px 15px;
+  }
+
+  .teachers > div {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; /* 🔥 important */
+    justify-content: start;
+    gap: 10px;
+  }
+
+  .teacher-card {
+    width: 48%;
+    max-width: 350px;
+    margin-bottom: 20px;
+  }
+
+  .teacher-card img {
+    width: 100px;
+    height: 100px;
+  }
+
+  .teacher-card h3 {
+    font-size: 1.2rem;
+  }
+
+  .teacher-card .subject {
+    font-size: 1rem;
+  }
+
+  /* Toppers Section */
+  .toppers {
+    margin: 20px 0;
+  }
+
+ .topper-cards{
+  display: flex;
+  flex-direction: row;
+
+ }
+
+  .topper-card {
+    width: 40%;
+    padding-bottom: 0;
+    margin-bottom: 20px;
+  }
+
+  .topper-card img {
+    width: 80px;
+    height: 80px;
+  }
+
+  /* Gallery Section */
+  .gallery {
+    margin: 20px;
+  }
+
+  .gallery div {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .gallery img {
+    width: 100%; /* Make images take up full width */
+    height: auto;
+    margin-bottom: 10px;
+  }
+
+  /* Contact Section */
+  .contact .bg {
+    height: 40vh;
+     
+  }
+  .contact {
+    height: auto;
+    padding: 0;
+  }
+  .contact-blogs {
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .blog {
+    width: 100%;
+    max-width: 300px;
+  }
+
+ .footer {
+  width: 100%;
+  margin: 0;
+  padding-bottom: 10px;
+}
+
+  .footer-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer-box {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .social {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-around;
+  }
+}
