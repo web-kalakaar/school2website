@@ -11,8 +11,9 @@ body {
   padding: 0;
   margin: 0;
   height: 100%;
-  background-color: #ffffff;
+  background-color: #8dec92;
   overflow-x: hidden;
+  
 }
 .main,
 .about,
@@ -24,7 +25,7 @@ body {
   scroll-margin-top: 60px;
 }
 .navbar {
-  position: fixed;
+  position: sticky;
   top: 0;
   z-index: 1;
   width: 100%;
