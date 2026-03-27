@@ -35,6 +35,12 @@
     function toggleMenu() {
       document.querySelector(".nav-links").classList.toggle("active");
     }
+  // 🔥 CLOSE MENU ON LINK CLICK
+  document.querySelectorAll(".nav-links a").forEach(link => {
+    link.addEventListener("click", () => {
+      document.querySelector(".nav-links").classList.remove("active");
+    });
+  });
   </script>
   <div class="main" id="home"></div>
   <div class="cards">

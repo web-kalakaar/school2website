@@ -1,18 +1,18 @@
 @media only screen and (max-width: 768px) {
-
   /* ===== GLOBAL FIX ===== */
   * {
     box-sizing: border-box;
   }
 
-  html, body {
+  html,
+  body {
     overflow-x: hidden;
     max-width: 100%;
   }
 
   /* ===== NAVBAR ===== */
   .navbar {
-    padding: 0 10px;
+    padding: 0 5px 0 0;
   }
 
   .logo span {
@@ -25,27 +25,38 @@
 
   .nav-links {
     position: absolute;
-    top: 60px;
+    top: 43px;
     left: 0;
     width: 100%;
     flex-direction: column;
-    background: #8dec92;
+    background: #ff0000;
     display: none;
-    padding: 0;
+    padding: 0; transform: translateY(-100%);
+    opacity: 0;
+    pointer-events: none;
+
+    transition: all 0.4s ease;
   }
 
   .nav-links.active {
     display: flex;
+    transform: translateY(0);
+    opacity: 1;
+    pointer-events: auto;
+  
   }
 
   .nav-links li {
     width: 100%;
     border-bottom: 1px solid black;
+    
   }
 
   .nav-links li a {
     width: 100%;
     padding: 12px;
+    font-weight: bold;
+    font-size: larger;
   }
 
   /* ===== MAIN ===== */
@@ -160,6 +171,11 @@
 
   .blog {
     width: 95%;
+    height: 300px;
+  }
+  .blog h2,
+  .blog p {
+    opacity: 1;
   }
 
   /* ===== FOOTER ===== */
