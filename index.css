@@ -144,13 +144,14 @@ body {
   height: 600px;
   padding-top: 1px;
   background-image: url("edutree.webp");
-  background-position: 700px -50px;
+  background-position: 700px 0px;
   background-repeat: no-repeat;
   background-size: 400px;
 }
 .about p {
   font-size: large;
   width: calc(100% - 500px);
+  text-align: justify;
 }
 
 .aboutowner {
@@ -549,23 +550,17 @@ h3 {
   color: #1e90ff;
   padding: 0 10px;
 }
-.credit {
-  margin-left: 0;
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-  padding: 5px 30px;
-  background: linear-gradient(135deg, #6a0dad, #ff69b4);
+
+/* Bottom Bar */
+.footer-bottom {
+  text-align: center;
+  margin-top: 40px;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  padding-top: 15px;
+  font-size: 14px;
+  color: #9ca3af;
 }
-.credit span:nth-child(1) {
-  font-weight: 500;
-}
-.credit span:nth-child(2) {
-  font-weight: 400;
-  margin-top: 10px;
-  word-spacing: 5px;
-}
-.credit a{
-    text-decoration: none;
-    color: white;
+.footer-bottom a {
+  text-decoration: none;
+  color: #ced1d6;
 }
